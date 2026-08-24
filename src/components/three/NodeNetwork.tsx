@@ -57,9 +57,7 @@ function Network() {
         <bufferGeometry>
           <bufferAttribute
             attach="attributes-position"
-            count={linePositions.length / 3}
-            array={linePositions}
-            itemSize={3}
+            args={[linePositions, 3]}
           />
         </bufferGeometry>
         <lineBasicMaterial color="#2563EB" transparent opacity={0.18} />
@@ -68,11 +66,9 @@ function Network() {
       <points>
         <bufferGeometry>
           <bufferAttribute
-            attach="attributes-position"
-            count={pointPositions.length / 3}
-            array={pointPositions}
-            itemSize={3}
-          />
+          attach="attributes-position"
+          args={[pointPositions, 3]}
+        />
         </bufferGeometry>
         <pointsMaterial color="#3B82F6" size={0.045} transparent opacity={0.85} sizeAttenuation />
       </points>
