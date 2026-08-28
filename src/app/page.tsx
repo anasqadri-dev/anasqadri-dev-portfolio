@@ -10,6 +10,7 @@ import { EngineeringFocus } from "@/components/sections/EngineeringFocus";
 import { Experience } from "@/components/sections/Experience";
 import { GithubSection } from "@/components/sections/GithubSection";
 import { Contact } from "@/components/sections/Contact";
+import { Certifications } from "@/components/sections/Certifications";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Blogs />
         <EngineeringFocus />
         <Experience />
+        <Certifications />
         <GithubSection />
         <Contact />
       </main>

@@ -46,6 +46,9 @@ import {
   siYoutube,
   siWhatsapp,
   siDiscord,
+  siGoogle,
+  siNvidia,
+  siCoursera,
   type SimpleIcon,
 } from "simple-icons";
 import {
@@ -56,6 +59,7 @@ import {
   Boxes,
   Cloud,
   Code2,
+  Award,
   type LucideIcon,
 } from "lucide-react";
 
@@ -109,6 +113,9 @@ const brandIcons: Record<string, SimpleIcon> = {
   youtube: siYoutube,
   whatsapp: siWhatsapp,
   discord: siDiscord,
+  google: siGoogle,
+  nvidia: siNvidia,
+  coursera: siCoursera,
 };
 
 const fallbackIcons: Record<string, LucideIcon> = {
@@ -119,6 +126,7 @@ const fallbackIcons: Record<string, LucideIcon> = {
   boxes: Boxes,
   cloud: Cloud,
   code: Code2,
+  award: Award,
 };
 
 type TechIconProps = {

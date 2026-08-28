@@ -14,6 +14,7 @@ const navItems = [
   { label: "Open Source", href: "#open-source" },
   { label: "Blog", href: "#blog" },
   { label: "Experience", href: "#experience" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Contact", href: "#contact" },
 ];
 
