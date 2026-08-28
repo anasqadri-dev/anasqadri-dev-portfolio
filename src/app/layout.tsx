@@ -70,7 +70,6 @@ export default function RootLayout({
         "@type": "Person",
         "@id": `${siteConfig.url}/#person`,
         name: siteConfig.name,
-        alternateName: siteConfig.shortName,
         jobTitle: siteConfig.title,
         url: siteConfig.url,
         email: `mailto:${siteConfig.email}`,

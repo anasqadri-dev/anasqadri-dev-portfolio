@@ -3,7 +3,6 @@
 
 export const siteConfig = {
   name: "Muhammad Anas Qadri",
-  shortName: "Anas Qadri",
   title: "Software Engineer",
   role: "Backend Engineering · Java · Spring Boot · Cloud · DevOps",
   domain: "anasqadri-dev.me",
@@ -18,6 +17,13 @@ export const siteConfig = {
   keywords: [
     "Muhammad Anas Qadri",
     "Anas Qadri",
+    "Anas",
+    "anasqadri",
+    "anasqadri-dev",
+    "anasqadri-dev.me",
+    "anasqadri-dev.me portfolio",
+    "Muhammad Anas Qadri Portfolio",
+    "anasqadri dev",
     "Muhammad Anas Qadri Software Engineer",
     "Anas Qadri Software Engineer",
     "Java Developer",
@@ -29,7 +35,6 @@ export const siteConfig = {
 };
 
 // Central place for the profile photo path.
-// Replace /public/images/profile.jpg with the real photo, or update this path.
 export const profileImage = {
   src: "/images/profile.webp",
   alt: "Muhammad Anas Qadri, Software Engineer",

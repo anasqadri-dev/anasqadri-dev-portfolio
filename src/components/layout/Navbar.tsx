@@ -71,7 +71,7 @@ export function Navbar() {
           className="font-mono text-sm text-text-primary hover:text-blue-bright transition-colors"
         >
           <span className="hidden sm:inline">{siteConfig.name}</span>
-          <span className="sm:hidden">{siteConfig.shortName}</span>
+          <span className="sm:hidden">{siteConfig.name}</span>
           <span className="text-blue-bright">.</span>
         </Link>
 
