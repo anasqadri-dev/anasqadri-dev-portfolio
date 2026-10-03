@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { displayFont, bodyFont, monoFont } from "@/lib/fonts";
 import { siteConfig } from "@/data/site-config";
 import { socialLinks } from "@/data/social-links";
@@ -122,6 +123,7 @@ export default function RootLayout({
           Skip to content
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );
